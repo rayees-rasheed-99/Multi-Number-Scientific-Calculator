@@ -23,8 +23,27 @@ To develop an efficient and user-friendly calculator using C programming concept
 
 ## How to Run
 
-1. Download or clone this repository.
-2. Compile the source code using a C compiler:
+### Windows
+
+1. Install a C compiler such as GCC (MinGW-w64).
+2. Download or clone this repository.
+3. Open Command Prompt or the terminal in the project folder.
+4. Compile the source code:
+
+   ```bash
+   gcc calculator.c -o calculator -lm
+   ```
+
+5. Run the program:
+
+   ```bash
+   calculator.exe
+   ```
+
+### Linux / macOS
+
+1. Open a terminal in the project folder.
+2. Compile the source code:
 
    ```bash
    gcc calculator.c -o calculator -lm
@@ -35,13 +54,6 @@ To develop an efficient and user-friendly calculator using C programming concept
    ```bash
    ./calculator
    ```
-
-   On Windows, run:
-
-   ```bash
-   calculator.exe
-   ```
-
 ## Author
 
 Developed as a first-year B.Tech C programming project.
